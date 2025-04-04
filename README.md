@@ -64,6 +64,11 @@ POST /generate_response
 ```
 {
     "response": "Here is the support answer."
+    "retrieved_documents": [ 
+{"query": "Also double charged for checked…", "response": "Follow these steps...", "bleu_score":9.92e-232,  
+"bert_score": 1.23
+...
+]
 }
 ```
 
